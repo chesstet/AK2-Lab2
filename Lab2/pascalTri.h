@@ -1,0 +1,1 @@
+void generatePascal(int heigth);
