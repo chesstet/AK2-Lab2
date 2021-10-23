@@ -10,7 +10,4 @@ pascalTri.o: pascalTri.cpp
 	g++ -c pascalTri.cpp
 
 clean: 
-	del /a *.o
-
-deleteExe:
-	del main.exe
+	rm -rf *.o
